@@ -1,5 +1,5 @@
-$family-serif: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
-$family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
+$family-serif: "Roboto", "Open Sans", sans-serif, "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei";
+$family-mono: monospace, "Source Code Pro", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
 body, button, input, select, textarea {
@@ -308,7 +308,7 @@ a.tag.article-tag {
     .article {
         border-top: none;
         margin-left: -1px;
-        padding: 1rem 1.5rem;
+        padding: 0.1rem 1.5rem;
         border-left: 3px solid transparent;
 
         &:hover {
@@ -458,7 +458,7 @@ figure.highlight {
         overflow: visible;
 
         .line {
-            line-height: 1.5rem;
+            line-height: 1.2rem;
         }
     }
 
